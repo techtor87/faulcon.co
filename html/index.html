@@ -33,7 +33,7 @@
 													<li><a href="emily.html">Emily</a></li>
 													<li><a href="ella.html">Ella</a></li>
 													<li><a href="lily.html">Lily</a></li>
-													<li><a href="#">Maleficent - TBD</a></li>
+													<li><a href="rosalee.html">Maleficent - TBD</a></li>
 												</ul>
 											</li>
 											<li><a href="generic.html">Generic</a></li>
@@ -159,22 +159,51 @@
 					</section> -->
 
 				<!-- Footer -->
-					<footer id="footer">
+				<div w3-include-html="footer.html"></div>
+					<!-- <footer id="footer">
 						<ul class="icons">
-							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>&copy; Faulcon.co</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
-					</footer>
+					</footer> -->
 
 			</div>
 
-		<!-- Scripts -->
+			<!-- Scripts -->
+			<script>
+			function includeHTML() {
+				var z, i, elmnt, file, xhttp;
+				/* Loop through a collection of all HTML elements: */
+				z = document.getElementsByTagName("*");
+				for (i = 0; i < z.length; i++) {
+					elmnt = z[i];
+					/*search for elements with a certain atrribute:*/
+					file = elmnt.getAttribute("w3-include-html");
+					if (file) {
+						/* Make an HTTP request using the attribute value as the file name: */
+						xhttp = new XMLHttpRequest();
+						xhttp.onreadystatechange = function() {
+							if (this.readyState == 4) {
+								if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+								if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+								/* Remove the attribute, and call this function once more: */
+								elmnt.removeAttribute("w3-include-html");
+								includeHTML();
+							}
+						}
+						xhttp.open("GET", file, true);
+						xhttp.send();
+						/* Exit the function: */
+						return;
+					}
+				}
+			}
+			</script>
+			<script>includeHTML();</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
