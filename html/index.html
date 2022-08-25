@@ -12,43 +12,18 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/feather-alt-solid.svg" type="image/svg+xml" sizes="any" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="assets/js/import.js"></script>
 	</head>
 	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Faulcon.co</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li>About Us
-												<ul>
-													<li><a href="greg.html">Greg</a></li>
-													<li><a href="emily.html">Emily</a></li>
-													<li><a href="ella.html">Ella</a></li>
-													<li><a href="lily.html">Lily</a></li>
-													<li><a href="rosalee.html">Maleficent - TBD</a></li>
-												</ul>
-											</li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<!-- <li><a href="#">Log In</a></li> -->
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+				<div include-html="menubar.html"></div>
 
 				<!-- Banner -->
 					<section id="banner">
-						<div class="inner">
+						<div="inner">
 							<h2>Faulcon.co</h2>
 							<p>Welcome to the Family</p>
 						</div>
@@ -96,7 +71,7 @@
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+							<div class="image"><img src="images/RED30634 hotmetalstudio pittsburgh weddings 2012-08-11.jpg" alt="" /></div><div class="content">
 								<h2>Having fun while building the dream</h2>
 								<p>While we're building the assets and income to quit our full-time occupations we aren't
 									letting our lives pass us by. Regularly getting together with friends and family for game nights.
@@ -159,50 +134,9 @@
 					</section> -->
 
 				<!-- Footer -->
-				<div w3-include-html="footer.html"></div>
-					<!-- <footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Faulcon.co</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer> -->
-
+				<div include-html="footer.html"></div>
 			</div>
 
-			<!-- Scripts -->
-			<script>
-			function includeHTML() {
-				var z, i, elmnt, file, xhttp;
-				/* Loop through a collection of all HTML elements: */
-				z = document.getElementsByTagName("*");
-				for (i = 0; i < z.length; i++) {
-					elmnt = z[i];
-					/*search for elements with a certain atrribute:*/
-					file = elmnt.getAttribute("w3-include-html");
-					if (file) {
-						/* Make an HTTP request using the attribute value as the file name: */
-						xhttp = new XMLHttpRequest();
-						xhttp.onreadystatechange = function() {
-							if (this.readyState == 4) {
-								if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-								if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-								/* Remove the attribute, and call this function once more: */
-								elmnt.removeAttribute("w3-include-html");
-								includeHTML();
-							}
-						}
-						xhttp.open("GET", file, true);
-						xhttp.send();
-						/* Exit the function: */
-						return;
-					}
-				}
-			}
-			</script>
 			<script>includeHTML();</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
