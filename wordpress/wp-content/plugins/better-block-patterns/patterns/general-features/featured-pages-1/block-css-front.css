@@ -1,0 +1,22 @@
+/* General - Featured Pages 1 */
+
+body .bbp-pattern-general-featured-pages-1 .wp-block-columns {
+	align-items: stretch;
+	flex-direction: row;
+}
+
+body .bbp-pattern-general-featured-pages-1 .wp-block-columns > .wp-block-column {
+	align-self: flex-start;
+}
+
+body .bbp-pattern-general-featured-pages-1 .wp-block-image,
+body .bbp-pattern-general-featured-pages-1 .wp-block-image > img { margin: 0; }
+
+body .bbp-pattern-general-featured-pages-1 .wp-block-columns .has-background * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-featured-pages-1 .wp-block-columns .has-background *:not(:first-child) {
+	margin-top: 1.875rem;
+}

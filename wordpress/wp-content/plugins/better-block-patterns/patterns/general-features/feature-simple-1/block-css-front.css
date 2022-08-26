@@ -1,0 +1,44 @@
+/* General - Feature Simple 1 */
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	margin: 0;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns > .wp-block-column {
+	align-self: center;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns .wp-block-group * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns .wp-block-group *:not(:first-child) {
+	margin-top: 1.875rem;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns > .wp-block-column.has-background {
+	align-self: stretch;
+	display: flex;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns > .wp-block-column.has-background > .wp-block-group {
+	display: flex;
+	flex: 1 1 100%;
+	align-self: center;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-column.has-background .wp-block-group__inner-container {
+	padding: 2.5em;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns .bbp-column__tagline {
+	font-size: 0.9375em;
+}
+
+body .bbp-pattern-general-feature-simple-1 .wp-block-columns .wp-block-buttons {
+	font-size: 0.875em;
+}

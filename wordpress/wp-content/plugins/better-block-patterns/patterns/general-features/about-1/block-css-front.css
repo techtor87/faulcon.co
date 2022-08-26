@@ -1,0 +1,9 @@
+/* General - About 1 */
+
+body .bbp-pattern-general-about-1 .wp-block-columns > .bbp-column__image {
+	align-self: start;
+}
+
+body .bbp-pattern-general-about-1 .wp-block-columns > .bbp-column__content {
+	align-self: center;
+}

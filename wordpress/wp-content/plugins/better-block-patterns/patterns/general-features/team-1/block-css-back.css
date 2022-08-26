@@ -1,0 +1,19 @@
+/* General - Team 1 */
+
+body .bbp-pattern-general-team-1 .wp-block-columns > .wp-block-column {
+	align-self: flex-start;
+}
+
+body .bbp-pattern-general-team-1 .wp-block-image {
+	margin-bottom: 1.875rem;
+}
+
+body .bbp-pattern-general-team-1 .wp-block-image > img {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-team-1 .bbp-team__name {
+	font-size: 1.25em;
+	font-weight: bolder;
+}

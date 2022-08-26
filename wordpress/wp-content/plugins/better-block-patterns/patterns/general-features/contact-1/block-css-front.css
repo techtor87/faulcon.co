@@ -1,0 +1,19 @@
+/* General - Contact 1 */
+
+body .bbp-pattern-general-contact-1 .bbp-pattern__layout-columns > .wp-block-column:not(:first-of-type) {
+	border: 0 solid currentColor;
+	border-inline-start-width: 1px;
+	padding-inline-start: 1.875rem;
+}
+
+/* BBP Core Media Queries */
+@media screen and (max-width: 600px) {
+	
+	body .bbp-pattern-general-contact-1 .bbp-pattern__layout-columns > .wp-block-column:not(:first-of-type) {
+		border-inline-start-width: 0;
+		border-block-start-width: 1px;
+		padding-inline: 0;
+		padding-block-start: 1.875rem;
+	}
+
+}

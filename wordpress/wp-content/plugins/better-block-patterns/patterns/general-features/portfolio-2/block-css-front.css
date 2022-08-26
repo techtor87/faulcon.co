@@ -1,0 +1,49 @@
+/* General - Portfolio 2 */
+
+body .bbp-pattern-general-portfolio-2 .wp-block-cover, 
+body .bbp-pattern-general-portfolio-2 .wp-block-cover-image {
+	padding: 0;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+body .bbp-pattern-general-portfolio-2 .wp-block-columns:not(:only-child) {
+	margin-top: 1.875rem;
+}
+
+:root body .bbp-pattern-general-portfolio-2 .bbp-pattern__group-preview {
+	padding: 1.875rem;
+}
+
+body .bbp-pattern-general-portfolio-2 .bbp-pattern__group-preview,
+body .bbp-pattern-general-portfolio-2 .wp-block-cover__inner-container {
+	color: currentColor;
+}
+
+body .bbp-pattern-general-portfolio-2 .bbp-pattern__group-preview .wp-block-columns {
+	gap: 1.875em;
+}
+
+:root .bbp-pattern-general-portfolio-2 .bbp-pattern__group-preview .wp-block-columns > .wp-block-column {
+	margin-block-start: 0;
+	margin-inline-start: 0;
+}
+
+/* BBP Core Media Queries */
+@media screen and (max-width: @@layout-width-tablet@@) {
+	
+	:root .bbp-pattern-general-call-to-action-3 .bbp-pattern__layout-columns > .wp-block-column:not(:first-child) {
+		margin-inline-start: 0;
+	}
+
+	:root .bbp-pattern-general-portfolio-2 .bbp-pattern__group-preview .wp-block-columns {
+		flex-direction: column;
+		gap: 1.875em;
+	}
+
+	:root .bbp-pattern-general-portfolio-2 .bbp-pattern__group-preview .wp-block-columns > .wp-block-column:nth-child(2n) {
+		margin-block-start: 0;
+		margin-inline-start: 0;
+	}
+
+}

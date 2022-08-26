@@ -1,0 +1,44 @@
+/* General - Description 3 */
+
+body .bbp-pattern-general-description-3 .wp-block-columns > .wp-block-column {
+	align-self: flex-start;
+}
+
+:root .bbp-pattern-general-description-3 .wp-block-columns > .wp-block-column:not(:first-child) {
+	margin-inline-start: 0;
+}
+
+body .bbp-pattern-general-description-3 .wp-block-image,
+body .bbp-pattern-general-description-3 .bbp-column-group * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-description-3 .bbp-column-group *:not(:first-child) {
+	margin-top: 1.875rem;
+}
+
+body .bbp-pattern-general-description-3 .bbp-column-group .bbp-column__tagline {
+	font-size: 1em;
+	line-height: 1;
+}
+
+/* BBP Core Media Queries */
+@media screen and (max-width: @@layout-width-tablet@@) {
+
+	:root .bbp-pattern-general-description-3 .wp-block-columns > .wp-block-column:nth-child(2n) {
+		margin-inline-start: 0;
+	}
+
+	:root .bbp-pattern-general-description-3 .wp-block-columns > .wp-block-column:nth-child(1n+3) {
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	:root .bbp-pattern-general-description-3 .wp-block-columns > .wp-block-column:not(:first-child), 
+	:root .bbp-pattern-general-description-3 .wp-block-columns > .wp-block-column:nth-child(2n) {
+		margin-top: 0;
+	}
+}

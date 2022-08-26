@@ -1,0 +1,875 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Block Patterns\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-02 07:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8.1\n"
+"X-Domain: better-block-patterns"
+
+#: includes/class-settings.php:555
+msgid ""
+"*We use Mailchimp as our marketing platform. By clicking above to subscribe, "
+"you acknowledge that your information will be transferred to Mailchimp for "
+"processing."
+msgstr ""
+
+#: includes/class-settings.php:498
+msgid "1. How to Enable Custom Block Patterns"
+msgstr ""
+
+#: includes/class-settings.php:249
+msgid "1. On all pages &mdash; default"
+msgstr ""
+
+#: includes/class-settings.php:517
+msgid "2. How to Add Block Patterns"
+msgstr ""
+
+#: includes/class-settings.php:250
+msgid "2. On single pages"
+msgstr ""
+
+#: includes/class-settings.php:251
+msgid "3. Only when needed &mdash; recommended"
+msgstr ""
+
+#: includes/class-settings.php:628
+msgid ""
+"<p><strong>Patterns marked with a dashed border <span class=\"bbp-icon__item-"
+"-supported\"></span> are recommended by your active theme.</strong></p>"
+msgstr ""
+
+#: includes/class-settings.php:286
+#, php-format
+msgid ""
+"<p>Performance settings are explained <a href=\"%1$s\" target=\"_blank\" "
+"rel=\"noopener\">in the documentation here</a>.</p>"
+msgstr ""
+
+#: includes/class-settings.php:371
+#, php-format
+msgid ""
+"<span class=\"bbp-package__item-patterns\"> &ndash; %1$s patterns</span>"
+msgstr ""
+
+#: includes/class-pattern-packages.php:239
+msgid "A centered introduction for a page or a page section."
+msgstr ""
+
+#: includes/class-pattern-packages.php:122
+msgid "A compact way to display contact information."
+msgstr ""
+
+#: includes/class-pattern-packages.php:356
+msgid "A compact way to present your staff or team in a grid of 2."
+msgstr ""
+
+#: includes/class-pattern-packages.php:317
+msgid "A minimalist way to present multiple pricing plans."
+msgstr ""
+
+#: includes/class-pattern-packages.php:382
+msgid ""
+"A modern way to present your staff or team. One column has a large image, "
+"the other column has smaller images."
+msgstr ""
+
+#: includes/class-pattern-packages.php:395
+#: includes/class-pattern-packages.php:408
+msgid "A quick way to display multiple testimonials."
+msgstr ""
+
+#: includes/class-pattern-packages.php:187
+msgid "A simple pattern to describe a product or a section of the website."
+msgstr ""
+
+#: includes/class-pattern-packages.php:174
+msgid ""
+"A wide image followed by multiple columns with text. Use multiple shades of "
+"the same color for the best effect."
+msgstr ""
+
+#: includes/class-settings.php:514
+msgid ""
+"A: The short answer: <strong>for better performance</strong>. This way the "
+"plugin will load only the minimum necessary CSS code on the front-end, thus "
+"keeping its impact to a minimum."
+msgstr ""
+
+#: includes/class-pattern-packages.php:56
+msgid "About #1"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:94
+msgid "Accent Text"
+msgstr ""
+
+#: includes/class-pattern-packages.php:226
+msgid ""
+"Add an introduction for a page or a page section. A two columns layout, with "
+"the heading in one column and text in the other."
+msgstr ""
+
+#: includes/class-settings.php:509
+msgid ""
+"After that you can enable individual patterns in the <strong>Individual "
+"Patterns</strong> tab."
+msgstr ""
+
+#: includes/class-pattern-packages.php:50
+msgid ""
+"All purpose block patterns that are appropriate for all types of websites."
+msgstr ""
+
+#: includes/class-pattern-packages.php:49
+msgid "All purpose patterns"
+msgstr ""
+
+#: includes/class-pattern-packages.php:57
+msgid ""
+"An easy way to describe a person or a product. An image on one side and text "
+"on the other."
+msgstr ""
+
+#: includes/class-pattern-packages.php:265
+msgid ""
+"An easy way to display a grid of client or partner logos, with a border "
+"around every logo."
+msgstr ""
+
+#: includes/class-pattern-packages.php:252
+msgid "An easy way to display a grid of client or partner logos."
+msgstr ""
+
+#: includes/class-pattern-packages.php:109
+msgid "An image on one side and text on the other."
+msgstr ""
+
+#: includes/class-pattern-packages.php:69
+msgid "Audio Player #1"
+msgstr ""
+
+#: includes/class-patterns-manager.php:67
+#, php-format
+msgid "BBP: %1$s"
+msgstr ""
+
+#: includes/class-settings.php:500
+msgid ""
+"Before you can start using Better Block Patterns in your posts and pages, "
+"you have to enable some pattern packages and individual patterns."
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-customizer.php:202 includes/class-settings.php:65
+#: includes/class-settings.php:66
+msgid "Better Block Patterns"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:42
+msgctxt "Block pattern demo content"
+msgid "$19.99"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:64
+msgctxt "Block pattern demo content"
+msgid "$29.99"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:20
+msgctxt "Block pattern demo content"
+msgid "$9.99"
+msgstr ""
+
+#: patterns/general-features/testimonials-1/block-data.php:14
+#: patterns/general-features/testimonials-1/block-data.php:30
+msgctxt "Block pattern demo content"
+msgid "&ndash; John Doe, Vigilante"
+msgstr ""
+
+#: patterns/general-features/description-3/block-data.php:10
+#: patterns/general-features/services-2/block-data.php:6
+msgctxt "Block pattern demo content"
+msgid "01"
+msgstr ""
+
+#: patterns/general-features/description-3/block-data.php:26
+#: patterns/general-features/services-2/block-data.php:22
+msgctxt "Block pattern demo content"
+msgid "02"
+msgstr ""
+
+#: patterns/general-features/description-3/block-data.php:42
+#: patterns/general-features/services-2/block-data.php:38
+msgctxt "Block pattern demo content"
+msgid "03"
+msgstr ""
+
+#: patterns/general-features/team-1/block-data.php:54
+msgctxt "Block pattern demo content"
+msgid "Alwin Erick"
+msgstr ""
+
+#: patterns/general-features/team-1/block-data.php:22
+#: patterns/general-features/team-2/block-data.php:26
+#: patterns/general-features/team-2/block-data.php:46
+#: patterns/general-features/team-2/block-data.php:66
+#: patterns/general-features/team-2/block-data.php:88
+#: patterns/general-features/team-2/block-data.php:108
+#: patterns/general-features/team-2/block-data.php:128
+#: patterns/general-features/team-3/block-data.php:42
+#: patterns/general-features/team-3/block-data.php:62
+#: patterns/general-features/team-3/block-data.php:82
+msgctxt "Block pattern demo content"
+msgid "Barbara Boyce"
+msgstr ""
+
+#: patterns/general-features/contact-2/block-data.php:3
+#: patterns/general-features/services-1/block-data.php:6
+#: patterns/general-features/services-1/block-data.php:26
+#: patterns/general-features/services-1/block-data.php:46
+#: patterns/general-features/feature-simple-1/block-data.php:12
+msgctxt "Block pattern demo content"
+msgid "Block tagline"
+msgstr ""
+
+#: patterns/general-features/partners-2/block-data.php:3
+#: patterns/general-features/call-to-action-3/block-data.php:6
+#: patterns/general-features/partners-1/block-data.php:3
+msgctxt "Block pattern demo content"
+msgid "Block Title"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:16
+msgctxt "Block pattern demo content"
+msgid "BRONZE"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:29
+#: patterns/general-features/pricing-2/block-data.php:51
+#: patterns/general-features/pricing-2/block-data.php:73
+msgctxt "Block pattern demo content"
+msgid "Buy Now"
+msgstr ""
+
+#: patterns/general-features/team-1/block-data.php:26
+#: patterns/general-features/team-2/block-data.php:30
+#: patterns/general-features/team-2/block-data.php:50
+#: patterns/general-features/team-2/block-data.php:70
+#: patterns/general-features/team-2/block-data.php:92
+#: patterns/general-features/team-2/block-data.php:112
+#: patterns/general-features/team-2/block-data.php:132
+#: patterns/general-features/team-3/block-data.php:26
+#: patterns/general-features/team-3/block-data.php:46
+#: patterns/general-features/team-3/block-data.php:66
+#: patterns/general-features/team-3/block-data.php:86
+msgctxt "Block pattern demo content"
+msgid "Co-Founder &amp; CEO"
+msgstr ""
+
+#: patterns/general-features/contact-2/block-data.php:29
+msgctxt "Block pattern demo content"
+msgid "Connect on Social Media"
+msgstr ""
+
+#: patterns/general-features/contact-1/block-data.php:27
+msgctxt "Block pattern demo content"
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/general-features/contact-2/block-data.php:13
+msgctxt "Block pattern demo content"
+msgid "General Inquiries"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:60
+msgctxt "Block pattern demo content"
+msgid "GOLD"
+msgstr ""
+
+#: patterns/general-features/contact-1/block-data.php:9
+#: patterns/general-features/contact-1/block-data.php:31
+msgctxt "Block pattern demo content"
+msgid "hello@ilovewp.com"
+msgstr ""
+
+#: patterns/general-features/testimonials-2/block-data.php:10
+#: patterns/general-features/testimonials-2/block-data.php:22
+#: patterns/general-features/testimonials-2/block-data.php:34
+msgctxt "Block pattern demo content"
+msgid "John Doe, Vigilante"
+msgstr ""
+
+#: patterns/general-features/team-1/block-data.php:38
+#: patterns/general-features/team-3/block-data.php:22
+msgctxt "Block pattern demo content"
+msgid "Josefa Travis"
+msgstr ""
+
+#: patterns/general-features/team-1/block-data.php:42
+msgctxt "Block pattern demo content"
+msgid "Lead Developer"
+msgstr ""
+
+#: patterns/general-features/description-2/block-data.php:15
+#: patterns/general-features/services-1/block-data.php:18
+#: patterns/general-features/services-1/block-data.php:38
+#: patterns/general-features/services-1/block-data.php:58
+#: patterns/general-features/portfolio-1/block-data.php:14
+#: patterns/general-features/pricing-1/block-data.php:27
+#: patterns/general-features/pricing-1/block-data.php:45
+#: patterns/general-features/pricing-1/block-data.php:63
+#: patterns/general-features/featured-pages-2/block-data.php:15
+#: patterns/general-features/featured-pages-2/block-data.php:33
+#: patterns/general-features/featured-pages-2/block-data.php:51
+#: patterns/general-features/feature-simple-1/block-data.php:24
+#: patterns/general-features/featured-pages-1/block-data.php:18
+#: patterns/general-features/featured-pages-1/block-data.php:38
+#: patterns/general-features/featured-pages-1/block-data.php:58
+#: patterns/general-features/call-to-action-1/block-data.php:12
+msgctxt "Block pattern demo content"
+msgid "Learn More"
+msgstr ""
+
+#: patterns/general-features/description-1/block-data.php:17
+#: patterns/general-features/description-1/block-data.php:25
+#: patterns/general-features/description-1/block-data.php:33
+msgctxt "Block pattern demo content"
+msgid "Mollis nec pharetra lobortis id"
+msgstr ""
+
+#: patterns/general-features/description-2/block-data.php:7
+#: patterns/general-features/description-1/block-data.php:5
+msgctxt "Block pattern demo content"
+msgid "Morbi duis lectus donec hendrerit cubilia posuere."
+msgstr ""
+
+#: patterns/general-features/audio-player-1/block-data.php:12
+#: patterns/general-features/featured-pages-2/block-data.php:7
+#: patterns/general-features/featured-pages-2/block-data.php:25
+#: patterns/general-features/featured-pages-2/block-data.php:43
+#: patterns/general-features/feature-simple-1/block-data.php:16
+#: patterns/general-features/featured-pages-1/block-data.php:10
+#: patterns/general-features/featured-pages-1/block-data.php:30
+#: patterns/general-features/featured-pages-1/block-data.php:50
+msgctxt "Block pattern demo content"
+msgid "Page Title"
+msgstr ""
+
+#: patterns/general-features/portfolio-2/block-data.php:3
+#: patterns/general-features/portfolio-1/block-data.php:6
+#: patterns/general-features/about-1/block-data.php:6
+msgctxt "Block pattern demo content"
+msgid "Pattern Title"
+msgstr ""
+
+#: patterns/general-features/contact-2/block-data.php:21
+msgctxt "Block pattern demo content"
+msgid "Press & Media"
+msgstr ""
+
+#: patterns/general-features/pricing-1/block-data.php:17
+msgctxt "Block pattern demo content"
+msgid "Pricing Plan &ndash; $33"
+msgstr ""
+
+#: patterns/general-features/pricing-1/block-data.php:35
+msgctxt "Block pattern demo content"
+msgid "Pricing Plan &ndash; $66"
+msgstr ""
+
+#: patterns/general-features/pricing-1/block-data.php:53
+msgctxt "Block pattern demo content"
+msgid "Pricing Plan &ndash; $99"
+msgstr ""
+
+#: patterns/general-features/call-to-action-3/block-data.php:20
+msgctxt "Block pattern demo content"
+msgid "Request a free quote"
+msgstr ""
+
+#: patterns/general-features/call-to-action-2/block-data.php:12
+msgctxt "Block pattern demo content"
+msgid "Schedule a Call"
+msgstr ""
+
+#: patterns/general-features/call-to-action-2/block-data.php:3
+msgctxt "Block pattern demo content"
+msgid "Schedule a Free Call"
+msgstr ""
+
+#: patterns/general-features/team-1/block-data.php:3
+#: patterns/general-features/team-2/block-data.php:3
+#: patterns/general-features/pricing-2/block-data.php:3
+#: patterns/general-features/team-3/block-data.php:3
+#: patterns/general-features/call-to-action-2/block-data.php:3
+#: patterns/general-features/intro-1/block-data.php:5
+#: patterns/general-features/pricing-1/block-data.php:3
+#: patterns/general-features/intro-2/block-data.php:3
+msgctxt "Block pattern demo content"
+msgid "Section Intro"
+msgstr ""
+
+#: patterns/general-features/team-1/block-data.php:58
+msgctxt "Block pattern demo content"
+msgid "Senior Developer"
+msgstr ""
+
+#: patterns/general-features/services-1/block-data.php:10
+#: patterns/general-features/services-1/block-data.php:30
+#: patterns/general-features/services-1/block-data.php:50
+#: patterns/general-features/description-3/block-data.php:14
+#: patterns/general-features/description-3/block-data.php:30
+#: patterns/general-features/description-3/block-data.php:46
+#: patterns/general-features/services-2/block-data.php:10
+#: patterns/general-features/services-2/block-data.php:26
+#: patterns/general-features/services-2/block-data.php:42
+msgctxt "Block pattern demo content"
+msgid "Service Title"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:38
+msgctxt "Block pattern demo content"
+msgid "SILVER"
+msgstr ""
+
+#: patterns/general-features/pricing-2/block-data.php:24
+#: patterns/general-features/pricing-2/block-data.php:46
+#: patterns/general-features/pricing-2/block-data.php:68
+msgctxt "Block pattern demo content"
+msgid "SUB PRICE"
+msgstr ""
+
+#: patterns/general-features/call-to-action-1/block-data.php:16
+msgctxt "Block pattern demo content"
+msgid "Subscribe"
+msgstr ""
+
+#: patterns/general-features/testimonials-1/block-data.php:6
+#: patterns/general-features/testimonials-1/block-data.php:22
+msgctxt "Block pattern demo content"
+msgid "Testimonial title"
+msgstr ""
+
+#: patterns/general-features/portfolio-2/block-data.php:18
+#: patterns/general-features/portfolio-2/block-data.php:26
+#: patterns/general-features/portfolio-2/block-data.php:42
+msgctxt "Block pattern demo content"
+msgid "View Products"
+msgstr ""
+
+#: patterns/general-features/contact-1/block-data.php:17
+msgctxt "Block pattern demo content"
+msgid "Visit Us"
+msgstr ""
+
+#: patterns/general-features/contact-2/block-data.php:33
+msgctxt "Block pattern demo content"
+msgid "You can connect with our company on social media."
+msgstr ""
+
+#: includes/class-pattern-packages.php:82
+msgid "Call to Action #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:95
+msgid "Call to Action #2"
+msgstr ""
+
+#: includes/class-pattern-packages.php:108
+msgid "Call to Action #3"
+msgstr ""
+
+#: includes/class-pattern-packages.php:96
+msgid "Centered heading, text and buttons."
+msgstr ""
+
+#: better-block-patterns.php:102 better-block-patterns.php:114
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-settings.php:267
+msgid ""
+"Click on the \"Save Changes\" button before switching to the \"Individual "
+"Patterns\" tab."
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:61
+msgid "Colors &ndash; General"
+msgstr ""
+
+#: includes/class-pattern-packages.php:121
+msgid "Contact #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:134
+msgid "Contact #2"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:42
+msgid "CSS Breakpoint - Mobile"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:31
+msgid "CSS Breakpoint - Tablet"
+msgstr ""
+
+#: includes/class-settings.php:133
+msgid "Custom Pattern Packages"
+msgstr ""
+
+#: includes/class-pattern-packages.php:278
+msgid ""
+"Describe a product or a service using this two columns layout, with text in "
+"one column and multiple image in the other."
+msgstr ""
+
+#: includes/class-pattern-packages.php:161
+msgid ""
+"Describe a product or a service with some overlaid text over a cover image."
+msgstr ""
+
+#: includes/class-pattern-packages.php:148
+msgid ""
+"Describe a product or a service, with multiple headings and paragraphs on "
+"one side and an image on the other."
+msgstr ""
+
+#: includes/class-pattern-packages.php:147
+msgid "Description #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:160
+msgid "Description #2"
+msgstr ""
+
+#: includes/class-pattern-packages.php:173
+msgid "Description #3"
+msgstr ""
+
+#: includes/class-pattern-packages.php:304
+msgid ""
+"Display multiple pricing plans with bordered columns, with a plan title, "
+"list of features and a link to buy or learn more."
+msgstr ""
+
+#: includes/class-pattern-packages.php:70
+msgid "Embed an audio file with an image and some text to better describe it."
+msgstr ""
+
+#: includes/class-settings.php:266
+msgid "Enable the pattern packages that you would like to use on your website."
+msgstr ""
+
+#: includes/class-pattern-packages.php:186
+msgid "Feature Simple #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:199
+msgid "Featured Pages #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:212
+msgid "Featured Pages #2"
+msgstr ""
+
+#: includes/class-pattern-packages.php:48
+msgid "general-features"
+msgstr ""
+
+#: better-block-patterns.php:197
+msgid "Get Premium"
+msgstr ""
+
+#: better-block-patterns.php:206 includes/class-settings.php:77
+#: includes/class-settings.php:452
+msgid "Getting Started"
+msgstr ""
+
+#: includes/class-settings.php:76
+msgid "Getting Started with Better Block Patterns"
+msgstr ""
+
+#: includes/class-pattern-packages.php:291
+msgid ""
+"Highlight multiple categories or sections of your website, with buttons "
+"overlaid on Cover blocks."
+msgstr ""
+
+#: includes/class-pattern-packages.php:200
+msgid "Highlight multiple sections of your website. "
+msgstr ""
+
+#: includes/class-pattern-packages.php:213
+msgid ""
+"Highlight multiple sections of your website. Text is overlaid on an image."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://betterblockpatterns.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.ilovewp.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "ILOVEWP.com"
+msgstr ""
+
+#: includes/class-settings.php:521
+msgid "In the Block Editor, click on the plus button to add a new block."
+msgstr ""
+
+#: includes/class-settings.php:525
+msgid "In the newly opened pull-out panel switch from Blocks to Patterns."
+msgstr ""
+
+#: includes/class-settings.php:149 includes/class-settings.php:599
+msgid "Individual Patterns"
+msgstr ""
+
+#: includes/class-pattern-packages.php:225
+msgid "Intro #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:238
+msgid "Intro #2"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:11
+msgid "Layout Settings"
+msgstr ""
+
+#: includes/class-settings.php:215
+msgid "Load BBP CSS Assets"
+msgstr ""
+
+#: includes/class-settings.php:228
+msgid "Load BBP FontAwesome"
+msgstr ""
+
+#: includes/class-pattern-packages.php:343
+msgid "Multiple columns with a large number, a heading and some text."
+msgstr ""
+
+#: includes/class-pattern-packages.php:330
+msgid "Multiple columns with a tagline, a heading, text and a link."
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:116
+msgid "Neutral - Black"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:105
+msgid "Neutral - White"
+msgstr ""
+
+#: includes/class-settings.php:254
+msgid ""
+"Option #3 is best for performance and works for most users. If some patterns "
+"don't look as expected, try switching to #1. Default: 1."
+msgstr ""
+
+#: includes/class-pattern-packages.php:251
+msgid "Partners #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:264
+msgid "Partners #2"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:20
+msgid "Pattern Max Width - Desktop"
+msgstr ""
+
+#: includes/class-settings.php:112 includes/class-settings.php:119
+#: includes/class-settings.php:598
+msgid "Pattern Packages"
+msgstr ""
+
+#: includes/class-settings.php:600
+msgid "Performance"
+msgstr ""
+
+#: includes/class-settings.php:208
+msgid "Performance Settings"
+msgstr ""
+
+#: includes/class-pattern-packages.php:277
+msgid "Portfolio #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:290
+msgid "Portfolio #2"
+msgstr ""
+
+#: includes/class-pattern-packages.php:369
+msgid ""
+"Present your staff or team in multiple columns. Works best with 2, 3 or 4 "
+"columns. "
+msgstr ""
+
+#: includes/class-pattern-packages.php:303
+msgid "Pricing Table #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:316
+msgid "Pricing Table #2"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:72
+msgid "Primary Text"
+msgstr ""
+
+#: includes/class-settings.php:513
+msgid "Q: Why do I have to manually enable patterns?"
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:83
+msgid "Secondary Text"
+msgstr ""
+
+#: includes/class-settings.php:529
+msgid ""
+"Select one of the categories containing custom block patterns. All Better "
+"Block Patterns are grouped into categories that have the BBP: prefix."
+msgstr ""
+
+#: includes/class-pattern-packages.php:329
+msgid "Services #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:342
+msgid "Services #2"
+msgstr ""
+
+#: better-block-patterns.php:202 includes/class-settings.php:86
+#: includes/class-settings.php:87 includes/class-settings.php:453
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:584
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/class-settings.php:553
+msgid "Subscribe"
+msgstr ""
+
+#: includes/class-settings.php:544
+msgid "Subscribe to the Newsletter"
+msgstr ""
+
+#: includes/class-pattern-packages.php:355
+msgid "Team #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:368
+msgid "Team #2"
+msgstr ""
+
+#: includes/class-pattern-packages.php:381
+msgid "Team #3"
+msgstr ""
+
+#: includes/class-pattern-packages.php:394
+msgid "Testimonials #1"
+msgstr ""
+
+#: includes/class-pattern-packages.php:407
+msgid "Testimonials #2"
+msgstr ""
+
+#: includes/class-pattern-packages.php:83
+msgid "Text on one side and buttons on the other."
+msgstr ""
+
+#. Description of the plugin
+msgid "The easiest way to use block patterns in the WordPress Block editor."
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:43
+msgid "The media breakpoint for smartphones. Default is 460."
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:32
+msgid "The media breakpoint for tablets. Default is 768."
+msgstr ""
+
+#: includes/class-settings.php:276
+msgid ""
+"These options control the contents of the bbp-core.css file that is "
+"automatically generated by the plugin."
+msgstr ""
+
+#: includes/customizer/panels/better-block-patterns.php:21
+msgid ""
+"This is the maximum width of all BBP Patterns. It is best if it matches the "
+"width of the content area in your theme."
+msgstr ""
+
+#: includes/class-settings.php:494
+msgid ""
+"This plugin includes custom block patterns that blend in with your active "
+"WordPress theme."
+msgstr ""
+
+#: includes/class-settings.php:519
+msgid ""
+"To add a block pattern to a page or a post, simply create a new one or edit "
+"an existing one."
+msgstr ""
+
+#: includes/class-pattern-packages.php:135
+msgid ""
+"Two columns with contact information, with text, links and social media "
+"icons on one side, and a Map on the other side."
+msgstr ""
+
+#: includes/class-settings.php:235
+msgid ""
+"Uncheck this if you don't need to load the FontAwesome library (if your "
+"theme or a different plugin already includes it). Default: checked."
+msgstr ""
+
+#: includes/class-settings.php:222
+msgid ""
+"Uncheck this if you want to style the patterns with your own CSS code. "
+"Default: checked."
+msgstr ""
+
+#: includes/class-settings.php:546
+msgid ""
+"We send out the newsletter once every few weeks. It contains information "
+"about upcoming plugin and theme updates, special offers and other WordPress-"
+"related useful content."
+msgstr ""
+
+#: includes/class-settings.php:241
+msgid "When to load Assets"
+msgstr ""
+
+#: includes/class-settings.php:503
+#, php-format
+msgid ""
+"You can enable pattern packages on the <a href=\"%1$s\">Settings</a> page in "
+"the <strong>Pattern Packages</strong> tab. Click on the <strong>Save "
+"Changes</strong> button."
+msgstr ""
+
+#: includes/class-settings.php:276
+msgid ""
+"You can exclude the parts that you don't need in order to keep a smaller ."
+"css file."
+msgstr ""

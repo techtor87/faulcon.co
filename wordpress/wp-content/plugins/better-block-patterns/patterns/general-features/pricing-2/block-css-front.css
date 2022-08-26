@@ -1,0 +1,15 @@
+/* General - Pricing 2 - */
+
+body .bbp-pattern-general-pricing-2 .bbp-columns__pricing .bbp-column-group {
+	text-align: center;
+}
+
+body .bbp-pattern-general-pricing-2 .bbp-columns__pricing .bbp-price__number {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1;
+}
+
+body .bbp-pattern-general-pricing-2 .bbp-columns__pricing .bbp-price__buttons {
+	justify-content: center;
+}

@@ -1,0 +1,66 @@
+/* General - Partners 2 */
+
+body .bbp-pattern-general-partners-2 .wp-block-image img {
+	filter: grayscale(100%);
+	opacity: 0.6;
+	transition: opacity 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+body .bbp-pattern-general-partners-2 .wp-block-image:hover img,
+body .bbp-pattern-general-partners-2 .wp-block-image:focus-within img {
+	filter: unset;
+	opacity: 1;
+}
+
+body .bbp-pattern-general-partners-2 .bbp-columns__partners {
+	border: 1px solid var(--bbp-color-black-10);
+	border-width: 1px 1px 1px 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-partners-2 .bbp-columns__partners:not(:first-of-type) {
+	border-top-width: 0;
+}
+
+body .bbp-pattern-general-partners-2 .bbp-columns__partners:last-of-type {
+	margin-bottom: 1.875rem;
+}
+
+body .bbp-pattern-general-partners-2 .bbp-columns__partners > .wp-block-column {
+	border-color: var(--bbp-color-black-10);
+	border-style: solid;
+	border-width: 0;
+	border-inline-start-width: 1px;
+	padding: 2.5rem;
+	text-align: center;
+}
+
+:root .bbp-pattern-general-partners-2 .bbp-columns__partners > .wp-block-column:not(:first-child) {
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+/* BBP Core Media Queries */
+@media screen and (max-width: @@layout-width-tablet@@) {
+	
+	:root .bbp-pattern-general-partners-2 .bbp-columns__partners > .wp-block-column:not(:first-child) {
+		margin-inline-start: 0;
+		margin-inline-end: 0;
+	}
+
+	:root .bbp-pattern-general-partners-2 .wp-block-columns > .wp-block-column:nth-child(1n+3) {
+		border-block-start-width: 1px;
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	:root .bbp-pattern-general-partners-2 .wp-block-columns > .wp-block-column:nth-child(1n+2) {
+		border-block-start-width: 1px;
+		margin-top: 0;
+	}
+
+}

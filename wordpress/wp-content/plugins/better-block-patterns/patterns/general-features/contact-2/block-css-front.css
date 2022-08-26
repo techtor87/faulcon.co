@@ -1,0 +1,5 @@
+/* General - Contact 2 */
+
+body .bbp-pattern-general-contact-2 .wp-block-columns > .wp-block-column {
+	align-self: flex-start;
+}

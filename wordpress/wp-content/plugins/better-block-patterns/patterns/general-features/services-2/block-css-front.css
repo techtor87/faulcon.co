@@ -1,0 +1,21 @@
+/* General - Services 2 */
+
+body .bbp-pattern-general-services-2 .wp-block-columns > .wp-block-column {
+	align-self: flex-start;
+	border-bottom: 1px solid #585858;
+	padding-bottom: 2em;
+}
+
+body .bbp-pattern-general-services-2 .bbp-column-group * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-services-2 .bbp-column-group *:not(:first-child) {
+	margin-top: 1.875rem;
+}
+
+body .bbp-pattern-general-services-2 .bbp-column-group .bbp-column__tagline {
+	font-size: 3em;
+	line-height: 1;
+}

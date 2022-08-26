@@ -1,0 +1,324 @@
+/*
+Theme Name:Wedding Photos
+Theme URI: https://themefreesia.com/themes/wedding-photos
+Author: Theme Freesia
+Author URI: https://themefreesia.com
+Description: Wedding Photos is a Child theme exclusively built for photographer, blogger, portfolio, photography agency or photo studio websites by Theme Freesia. It is clean, super flexible, fully responsive designs, amazing new features, complete 1-click website demos and lifetime free updates.Get free support at https://tickets.themefreesia.com/ and View demo site at https://demo.themefreesia.com/wedding-photos.
+Version: 1.0.7
+Requires at least: 5.8
+Requires PHP: 5.6
+Tested up to: 6.0
+Text Domain: wedding-photos
+Template: photograph
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: threaded-comments, right-sidebar, custom-background, custom-header, custom-menu, editor-style, sticky-post, theme-options, translation-ready, post-formats, custom-logo, footer-widgets, blog, news, portfolio
+
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+==================================================
+*/
+.show-menu-toggle {
+	border: none;
+}
+
+.header-social-block {
+	left: auto;
+	right: 10px;
+}
+
+.header-social-block.scrolled-social {
+	left: auto;
+	right: -100px;
+	opacity: 0;
+}
+
+.search-x {
+	border-radius: 0;
+}
+
+.main-slider .flex-direction-nav li {
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+.main-slider .flex-direction-nav {
+	left: 50px;
+	right: auto;
+}
+
+.main-slider .flex-control-nav {
+	right: 50px;
+	left: auto;
+}
+
+.slider-content .slider-title, .slider-content .slider-title a {
+	font-size: 36px;
+}
+
+.slider-content .slider-text {
+	font-size: 20px;
+}
+
+.main-slider .flex-direction-nav li {
+	border-radius: 0;
+}
+
+.show-fgt-hover .featured-item.has-post-thumbnail .popup-image:after {
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+}
+
+/*----- New Couple Section ----*/
+.wedding-couple-wrap {
+	background-color: #eee;
+	padding: 80px 0;
+}
+.wedding-couple-content {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.couples-row {
+	position: relative;
+	float: left;
+	margin: 0 -2%;
+}
+
+.couples-column {
+	width: 50%;
+	float: left;
+	padding: 0 2%;
+	position: relative;
+}
+
+.couples-content {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.couple-thumb {
+	margin-bottom: 20px;
+}
+
+.couples-row .couples-column:first-child:before {
+	content: '\f004';
+	color: #b4d2c8;
+	font-family: "FontAwesome";
+	/* width: 80px; */
+	/* height: 80px; */
+	text-align: center;
+	/* font-weight: bold; */
+	font-size: 100px;
+	line-height: 1;
+	position: absolute;
+	top: 160px;
+	right: -50px;
+	z-index: 1;
+}
+
+.couples-row .couples-column:first-child:after {
+	content: '\f228';
+	color: #fff;
+	font-family: "FontAwesome";
+	/* width: 80px; */
+	/* height: 80px; */
+	text-align: center;
+	/* font-weight: bold; */
+	font-size: 40px;
+	line-height: 1;
+	position: absolute;
+	top: 185px;
+	right: -26px;
+	z-index: 1;
+}
+
+.wedding-couple-wrap .wedding-header {
+	text-align: center;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.featured-gallery .featured-image-content:hover img {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+.featured-gallery-wrap.boxed-gallery {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container.boxed-gallery {
+	max-width: 1170px;
+	margin: 50px auto 0;
+}
+
+/*----- Color Style ----*/
+
+/* Nav, links and hover */
+
+a,
+ul li a:hover,
+ol li a:hover,
+.main-navigation a:hover, /* Navigation */
+.main-navigation ul li.current-menu-item a,
+.main-navigation ul li.current_page_ancestor a,
+.main-navigation ul li.current-menu-ancestor a,
+.main-navigation ul li.current_page_item a,
+.main-navigation ul li:hover > a,
+.main-navigation li.current-menu-ancestor.menu-item-has-children > a:after,
+.main-navigation li.current-menu-item.menu-item-has-children > a:after,
+.main-navigation ul li:hover > a:after,
+.main-navigation li.menu-item-has-children > a:hover:after,
+.main-navigation li.page_item_has_children > a:hover:after,
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a,
+.main-navigation ul li.current-menu-item ul li a:hover,
+.side-menu-wrap .side-nav-wrap a:hover, /* Side Menu */
+.entry-title a:hover, /* Post */
+.entry-title a:focus,
+.entry-title a:active,
+.entry-meta a:hover,
+.image-navigation .nav-links a,
+a.more-link,
+.widget ul li a:hover, /* Widgets */
+.widget-title a:hover,
+.widget_contact ul li a:hover,
+.site-info .copyright a:hover, /* Footer */
+#secondary .widget-title,
+#colophon .widget ul li a:hover,
+#footer-navigation a:hover,
+blockquote:before,
+.filter-button ul li:hover,
+.filter-button ul li.active {
+	color: #b4d2c8;
+}
+
+.main-navigation ul li ul:before,
+.side-menu:after,
+.page-overlay:before,
+#secondary .widget-title:before,
+.featured-gallery .featured-text-content,
+.maps-container:before {
+	background-color: #b4d2c8;
+}
+
+.main-navigation ul li ul:after {
+	border-bottom-color: #b4d2c8;
+}
+
+/* Webkit */
+::selection {
+	background: #b4d2c8;
+	color: #fff;
+}
+
+/* Gecko/Mozilla */
+::-moz-selection {
+	background: #b4d2c8;
+	color: #fff;
+}
+
+/* Accessibility
+================================================== */
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	color: #b4d2c8;
+}
+
+/* Default Buttons
+================================================== */
+input[type="reset"],/* Forms  */
+input[type="button"],
+input[type="submit"],
+.search-submit,
+.btn-default,
+.widget_tag_cloud a,
+.search-x {
+	background-color: #b4d2c8;
+}
+
+/* #Search Box
+================================================== */
+#search-box .search-submit {
+	border-bottom: 1px solid #b4d2c8;
+	color: #b4d2c8;
+}
+
+#search-box input[type="search"] {
+	border-bottom: 1px solid #b4d2c8;
+}
+
+/* #bbpress
+================================================== */
+#bbpress-forums .bbp-topics a:hover {
+	color: #b4d2c8;
+}
+
+.bbp-submit-wrapper button.submit {
+	background-color: #b4d2c8;
+	border: 1px solid #b4d2c8;
+}
+
+/* Woocommerce
+================================================== */
+.woocommerce #respond input#submit,
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce-demo-store p.demo_store {
+	background-color: #b4d2c8;
+}
+
+.woocommerce .woocommerce-message:before {
+	color: #b4d2c8;
+}
+
+/* Side Sidebar
+================================================== */
+
+.side-menu:after,
+.page-overlay:before {
+	background-color: #b4d2c8;
+}
+
+.side-menu:after {
+	content: none;
+}
+
+.hide-menu-toggle .bars:after, 
+.hide-menu-toggle .bars:before {
+	background-color: #333;
+}
+
+@media only screen and (max-width: 1023px) {
+	.wedding-couple-content {
+		width: 94%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.couples-content {
+		padding: 10px;
+	}
+
+	.couples-row .couples-column:first-child:before {
+		top: 0;
+	}
+
+	.couples-row .couples-column:first-child:after {
+		top: 25px;
+	}
+}

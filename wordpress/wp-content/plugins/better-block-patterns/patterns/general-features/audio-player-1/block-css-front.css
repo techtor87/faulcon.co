@@ -1,0 +1,9 @@
+/* General - Audio Player 1 */
+
+body .bbp-pattern-general-audio-player-1 .wp-block-columns > .wp-block-column {
+	align-self: center;
+}
+
+body .bbp-pattern-general-audio-player-1 .wp-block-columns .wp-block-image {
+	margin: 0;
+}

@@ -1,0 +1,52 @@
+/* General - Call to Action 3 */
+
+body .bbp-pattern-general-call-to-action-3 .wp-block-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+body .bbp-pattern-general-call-to-action-3 .bbp-pattern__layout-columns {
+	align-content: stretch;
+	align-items: stretch;
+}
+
+body .bbp-pattern-general-call-to-action-3 .bbp-pattern__layout-columns > .wp-block-column {
+	align-self: stretch;
+}
+
+:root .bbp-pattern-general-call-to-action-3 .bbp-pattern__layout-columns > .wp-block-column:not(:first-child) {
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+body .bbp-pattern-general-call-to-action-3 .wp-block-column > .wp-block-group:not(:first-child) {
+	margin-top: 1.875rem;
+}
+
+body .bbp-pattern-general-call-to-action-3 .wp-block-image {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+:root .bbp-pattern-general-call-to-action-3 .wp-block-image img {
+	height: inherit;
+	object-fit: cover;
+}
+
+/* BBP Core Media Queries */
+@media screen and (max-width: @@layout-width-tablet@@) {
+	
+	:root .bbp-pattern-general-call-to-action-3 .bbp-pattern__layout-columns > .wp-block-column:not(:first-child) {
+		margin-inline-start: 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	:root .bbp-pattern-general-call-to-action-3 .bbp-pattern__layout-columns > .wp-block-column:not(:first-child) {
+		margin-top: 0;
+	}
+
+}

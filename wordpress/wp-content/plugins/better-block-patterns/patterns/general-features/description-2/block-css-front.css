@@ -1,0 +1,19 @@
+/* General - Description 2 */
+
+body .bbp-pattern-general-description-2 .wp-block-cover, 
+body .bbp-pattern-general-description-2 .wp-block-cover-image {
+	padding: 0;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+body .bbp-pattern-general-description-2 .bbp-pattern__group-preview {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding: 0 1.875rem;
+}
+
+body .bbp-pattern-general-description-2 .wp-block-cover-image .wp-block-cover__inner-container, 
+body .bbp-pattern-general-description-2 .wp-block-cover .wp-block-cover__inner-container {
+	color: currentColor;
+}

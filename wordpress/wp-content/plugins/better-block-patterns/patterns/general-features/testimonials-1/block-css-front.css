@@ -1,0 +1,9 @@
+/* General - Testimonials 1 */
+
+body .bbp-pattern-general-testimonials-1 .bbp-testimonial__title {
+	font-size: 1.375em;
+}
+
+body .bbp-pattern-general-testimonials-1 .wp-block-columns > .wp-block-column {
+	align-self: flex-start;
+}

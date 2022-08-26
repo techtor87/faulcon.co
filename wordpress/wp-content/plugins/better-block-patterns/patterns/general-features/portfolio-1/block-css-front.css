@@ -1,0 +1,29 @@
+/* General - Portfolio 1 */
+
+body .bbp-pattern-general-portfolio-1 .wp-block-image,
+body .bbp-pattern-general-portfolio-1 .wp-block-image > img {
+	margin: 0;
+}
+
+body .bbp-pattern-general-portfolio-1 .bbp-pattern-layout-columns > .wp-block-column {
+	margin: 0;
+	padding: 0;
+}
+
+body .bbp-pattern-general-portfolio-1 .bbp-pattern-layout-columns > .wp-block-column:not(:first-child) {
+	margin-inline-start: 2.5em;
+}
+
+body .bbp-pattern-general-portfolio-1 .bbp-column-group * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-portfolio-1 .bbp-column-group *:not(:first-child) {
+	margin-top: 1.875rem;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-portfolio-1 .wp-block-column > .wp-block-columns:last-child {
+	margin-bottom: 0;
+}

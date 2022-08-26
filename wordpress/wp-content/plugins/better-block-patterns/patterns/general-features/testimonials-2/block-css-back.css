@@ -1,0 +1,24 @@
+/* General - Testimonials 2 */
+
+body .bbp-pattern-general-testimonials-2 .bbp-testimonial__title {
+	font-size: 1.375em;
+}
+
+body .bbp-pattern-general-testimonials-2 .bbp-testimonial__excerpt {
+	font-size: 1em;
+	line-height: 1.4;
+	position: relative;
+}
+
+body .bbp-pattern-general-testimonials-2 .bbp-testimonial__excerpt::before {
+	content: open-quote;
+	display: block;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 1;
+	margin: 0 0 0.5rem;
+}
+
+body .bbp-pattern-general-testimonials-2 .bbp-testimonial__excerpt::after {
+	content: close-quote;
+}

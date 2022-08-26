@@ -1,0 +1,30 @@
+/* General - Team 3 */
+
+body .bbp-pattern-general-team-3 .wp-block-image:only-child,
+body .bbp-pattern-general-team-3 .bbp-team__layout-columns,
+body .bbp-pattern-general-team-3 .bbp-team__member-columns:last-child {
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-team-3 .bbp-team__member-columns,
+body .bbp-pattern-general-team-3 .wp-block-image:not(:only-child) {
+	margin-bottom: 1.875rem;
+}
+
+body .bbp-pattern-general-team-3 .bbp-team__layout-columns > .wp-block-column {
+	align-self: flex-start;
+}
+
+body .bbp-pattern-general-team-3 .bbp-team__member-columns > .wp-block-column {
+	align-self: center;
+}
+
+body .bbp-pattern-general-team-3 .wp-block-image > img {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-team-3 .bbp-team__name {
+	font-size: 1.25em;
+	font-weight: bolder;
+}

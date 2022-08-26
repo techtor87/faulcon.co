@@ -1,0 +1,194 @@
+/******************************************
+FlexSlider
+******************************************/
+
+.is-style-bbp-block-with-flexslider .blocks-gallery-item,
+.is-style-bbp-block-with-flexslider .bbp-flexslider-control-nav,
+.is-style-bbp-block-with-flexslider .bbp-flexslider-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+:root .is-style-bbp-block-with-flexslider {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+:root .is-style-bbp-block-with-flexslider:not(:last-child) {
+	margin-bottom: 1.875em;
+}
+
+html[xmlns] .is-style-bbp-block-with-flexslider {
+	display: block;
+}
+
+/* Clearfix for the .slides element */
+:root .is-style-bbp-block-with-flexslider:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+:root .is-style-bbp-block-with-flexslider,
+:root .is-style-bbp-block-with-flexslider .wp-block-image,
+:root .is-style-bbp-block-with-flexslider.has-nested-images figure.wp-block-image:not(#individual-image),
+:root .is-style-bbp-block-with-flexslider img {
+	margin: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image)
+
+:root .is-style-bbp-block-with-flexslider .wp-block-image {
+	flex-grow: 1;
+	-webkit-backface-visibility: hidden;
+}
+
+:root .is-style-bbp-block-with-flexslider img {
+	height: auto;
+	margin: 0 !important;
+	width: 100%;
+}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+* include js that eliminates this class on page load */
+.no-js .is-style-bbp-block-with-flexslider .wp-block-image:first-child {
+	display: block;
+}
+
+/* FlexSlider Default Theme
+*********************************/
+.is-style-bbp-block-with-flexslider {
+	position: relative;
+	zoom: 1;
+}
+
+/* Direction Nav */
+.is-style-bbp-block-with-flexslider .bbp-flexslider-direction-nav {
+	*height: 0;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	position: absolute;
+	width: 100%;
+}
+
+.is-style-bbp-block-with-flexslider .bbp-flexslider-direction-nav > li {
+	display: flex !important;
+	list-style-type: none !important;
+	margin: 0;
+}
+
+.is-style-bbp-block-with-flexslider .bbp-flexslider-direction-nav .bbp-flexslider-prev,
+.is-style-bbp-block-with-flexslider .bbp-flexslider-direction-nav .bbp-flexslider-next {
+	display: block;
+	font-size: 36px;
+	margin: 0;
+	padding: 15px 24px 15px 24px;
+	z-index: 3;
+}
+
+.is-style-bbp-block-with-flexslider .bbp-flexslider-direction-nav a {
+	color: #fff !important;
+	display: inline-block;
+	margin: 0;
+	text-decoration: none !important;
+	zoom: 1;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+	-webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-font-smoothing: antialiased;
+}
+
+.is-style-bbp-block-with-flexslider:hover .bbp-flexslider-direction-nav a,
+.is-style-bbp-block-with-flexslider:focus-within .bbp-flexslider-direction-nav a {
+	filter: alpha(opacity=100);
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Control Nav (Bullets) */
+.is-style-bbp-block-with-flexslider .bbp-flexslider-control-nav {
+	line-height: 1em;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+	text-align: center;
+	z-index: 2;
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	-webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+.is-style-bbp-block-with-flexslider .bbp-flexslider-control-nav li {
+	display: inline-block !important;
+	margin-inline: 0.875rem;
+	text-align: center;
+	zoom: 1;
+	*display: inline;
+}
+
+.is-style-bbp-block-with-flexslider:hover .bbp-flexslider-control-nav,
+.is-style-bbp-block-with-flexslider:focus-within .bbp-flexslider-control-nav {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.is-style-bbp-block-with-flexslider .bbp-flexslider-control-paging li a {
+	border: solid 3px #fff;
+	display: block;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	cursor: pointer;
+	-webkit-transition-duration: 0;
+	-moz-transition-duration: 0;
+	transition-duration: 0;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.is-style-bbp-block-with-flexslider .bbp-flexslider-control-paging li a:hover,
+.is-style-bbp-block-with-flexslider .bbp-flexslider-control-paging li a:focus,
+.is-style-bbp-block-with-flexslider .bbp-flexslider-control-paging li a.bbp-flexslider-active {
+	background-color: #fff;
+}
+
+/* Fix flicker of first slide */
+.is-style-bbp-block-with-flexslider > .wp-block-image { 
+	opacity: 0;
+}
+
+.is-style-bbp-block-with-flexslider .wp-block-image:not(:first-child) img { 
+	display: none;
+}
+
+.is-style-bbp-block-with-flexslider.bbp-block-flexslider-loaded .wp-block-image,
+.no-js .is-style-bbp-block-with-flexslider .wp-block-image { 
+	opacity: 1;
+}
+
+.is-style-bbp-block-with-flexslider.bbp-block-flexslider-loaded .wp-block-image:not(:first-child) img,
+.no-js .is-style-bbp-block-with-flexslider .wp-block-image:not(:first-child) img { 
+	display: block;
+}

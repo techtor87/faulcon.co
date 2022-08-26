@@ -1,0 +1,14 @@
+/* General - Pricing 1 - */
+
+body .bbp-pattern-general-pricing-1 .bbp-columns__pricing .bbp-column__title {
+	margin: 0;
+	padding: 1.25rem;
+}
+
+body .bbp-pattern-general-pricing-1 .bbp-columns__pricing .bbp-column-group {
+	padding: 1.875rem;
+}
+
+body .bbp-pattern-general-pricing-1 .bbp-columns__pricing .wp-block-buttons {
+	margin-top: 1.875rem;
+}

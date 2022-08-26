@@ -1,0 +1,5 @@
+/* General - Call to Action 1 */
+
+body .bbp-pattern-general-call-to-action-1 .wp-block-columns .wp-block-buttons {
+	justify-content: flex-end;
+}

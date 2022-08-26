@@ -1,0 +1,14 @@
+/* General - Services 1 */
+
+body .bbp-pattern-general-services-1 .wp-block-columns > .wp-block-column {
+	align-self: flex-start;
+}
+
+body .bbp-pattern-general-services-1 .bbp-column-group * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .bbp-pattern-general-services-1 .bbp-column-group *:not(:first-child) {
+	margin-top: 1.875rem;
+}

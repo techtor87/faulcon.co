@@ -1,0 +1,47 @@
+/************************* wedding-photos CUSTOMIZER CUSTOM CSS **************************************/
+.wp-core-ui .btn-upgrade, #about-wedding-photos {
+	background-color: #b4d2c8;
+	border: 1px solid #b4d2c8;
+	box-shadow: none;
+	color: #fff;
+	margin-top: 10px;
+	border-radius: 0;
+		-ms-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-webkit-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.wp-core-ui .btn-upgrade:hover, #about-wedding-photos:hover,
+.wp-core-ui .btn-upgrade:focus, #about-wedding-photos:focus  {
+	background-color: #bbb;
+	border: 1px solid #bbb;
+	box-shadow: none;
+	color: #fff;
+}
+#wedding-photos-upgrade{
+	display: block;
+	float: left;
+	width: 100%;
+}
+#about-wedding-photos{
+	display: block;
+	padding: 10px 0px 10px 0;
+	text-align: center;
+	margin: -5px;
+}
+#customize-controls .control-section-wedding-photos .accordion-section-title:hover,
+#customize-controls .control-section-wedding-photos .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-wedding-photos .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+	.rtl .control-section-wedding-photos .accordion-section-title .button {
+		margin-left:  0;
+		margin-right: 8px;
+	}

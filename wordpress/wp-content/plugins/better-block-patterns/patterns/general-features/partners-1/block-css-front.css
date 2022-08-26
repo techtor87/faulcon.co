@@ -1,0 +1,17 @@
+/* General - Partners 1 */
+
+body .bbp-pattern-general-partners-1 .wp-block-image img {
+	filter: grayscale(100%);
+	opacity: 0.6;
+	transition: opacity 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+body .bbp-pattern-general-partners-1 .wp-block-image:hover img,
+body .bbp-pattern-general-partners-1 .wp-block-image:focus-within img {
+	filter: unset;
+	opacity: 1;
+}
+
+body .bbp-pattern-general-partners-1 .bbp-columns__partners:first-of-type {
+	margin-top: 2.5rem;
+}
